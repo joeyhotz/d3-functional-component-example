@@ -7,10 +7,8 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setIndex(index + 1)}> +1 </button>
-
       <div>
-        <D3Component data={numberArray} />
+        <D3Component />
       </div>
     </>
   );
